@@ -1,0 +1,2524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-0">
+  <generator>Windows Inform 10.1.2</generator>
+  <item nodeId="node-0">
+    <command xml:space="preserve">GA 1</command>
+    <result xml:space="preserve">GA 1&#x000A;An Interactive Fiction by Marshall&#x000A;Release 1 / Serial number 250416 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Doorway&#x000A;Your neighbor Trent left his key under the doormat, practically an invitation inside. You have one mission: Freeing the neglected dog in the basement. It's constant wails have left you sleepless for weeks, and tonight is no different. There is a basement that is down from here and a kitchen to the east. Wherever you go, you know you will still hear that poor dog's wailing.&#x000A;&#x000A;Note: Please use the command Health to check your current health.&#x000A;&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-1"/>
+      <child nodeId="node-26"/>
+      <child nodeId="node-15"/>
+      <child nodeId="node-34"/>
+      <child nodeId="node-66"/>
+      <child nodeId="node-59"/>
+      <child nodeId="node-27"/>
+      <child nodeId="node-9"/>
+      <child nodeId="node-163"/>
+    </children>
+  </item>
+  <item nodeId="node-1">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">You try to open the door to go down and save the dog, but it is locked. What kind of sick man would bother taking the extra effort of locking the basement door in his own home each night? You figure Trent must really enjoy the power and control he feels from abusing this poor dog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-40"/>
+      <child nodeId="node-2"/>
+    </children>
+  </item>
+  <item nodeId="node-40">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Kitchen&#x000A;Your neighbor Trent keeps an empty kitchen. There's a small fridge, some drawers and cupboards with chipped paint. There's a small table with a lone wooden chair.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-41"/>
+    </children>
+  </item>
+  <item nodeId="node-41">
+    <command xml:space="preserve">x fridge</command>
+    <result xml:space="preserve">The fridge has no calendar or local events on it, just a photo of a middle-aged woman.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-42"/>
+    </children>
+  </item>
+  <item nodeId="node-42">
+    <command xml:space="preserve">x photo</command>
+    <result xml:space="preserve">You flip over the photo and see the name "Sarah" scrawled on the back.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-43"/>
+    </children>
+  </item>
+  <item nodeId="node-43">
+    <command xml:space="preserve">eat photo</command>
+    <result xml:space="preserve">That's plainly inedible.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-2">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">Bedroom&#x000A;You enter Trent's bedroom. There he is snoring, completely unaware of your presence and the dog's howls which carry into the room. There is a bedside table with one drawer, and a small closet.&#x000A;&#x000A;On the bed is Trent.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-113"/>
+      <child nodeId="node-3"/>
+    </children>
+  </item>
+  <item nodeId="node-113">
+    <command xml:space="preserve">open closet</command>
+    <result xml:space="preserve">You notice a small safe on the floor of the closet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-114"/>
+    </children>
+  </item>
+  <item nodeId="node-114">
+    <command xml:space="preserve">enter 0609</command>
+    <result xml:space="preserve">You punch in the code. After a tense pause, the safe clicks open. Inside, you see a small key: the basement key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-127"/>
+      <child nodeId="node-115"/>
+    </children>
+  </item>
+  <item nodeId="node-127">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">basement key: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-128"/>
+    </children>
+  </item>
+  <item nodeId="node-128">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">Doorway&#x000A;Your neighbor Trent left his key under the doormat, practically an invitation inside. You have one mission: Freeing the neglected dog in the basement. It's constant wails have left you sleepless for weeks, and tonight is no different. There is a basement that is down from here and a kitchen to the east. Wherever you go, you know you will still hear that poor dog's wailing.&#x000A;&#x000A;Note: Please use the command Health to check your current health.&#x000A;&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-129"/>
+    </children>
+  </item>
+  <item nodeId="node-129">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">You try to open the door to go down and save the dog, but it is locked. What kind of sick man would bother taking the extra effort of locking the basement door in his own home each night? You figure Trent must really enjoy the power and control he feels from abusing this poor dog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-130"/>
+    </children>
+  </item>
+  <item nodeId="node-130">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with the basement key)&#x000A;You unlock the basement door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-131"/>
+    </children>
+  </item>
+  <item nodeId="node-131">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">(first opening the basement door)&#x000A;Finally, the dog stops wailing. It knows this is its chance, and leaps into your arms, licking your face. You can hardly remember what it's like being in the neighborhood without hearing its howls.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-132"/>
+    </children>
+  </item>
+  <item nodeId="node-132">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  Lily&#x000A;  a basement key&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-133"/>
+    </children>
+  </item>
+  <item nodeId="node-133">
+    <command xml:space="preserve">x dog</command>
+    <result xml:space="preserve">Around the dog's neck is a collar with a tag, "Lily Return to Sara 609-xxx-xxxx"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-115">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-137"/>
+      <child nodeId="node-116"/>
+    </children>
+  </item>
+  <item nodeId="node-137">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-138"/>
+    </children>
+  </item>
+  <item nodeId="node-138">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">Doorway&#x000A;Your neighbor Trent left his key under the doormat, practically an invitation inside. You have one mission: Freeing the neglected dog in the basement. It's constant wails have left you sleepless for weeks, and tonight is no different. There is a basement that is down from here and a kitchen to the east. Wherever you go, you know you will still hear that poor dog's wailing.&#x000A;&#x000A;Note: Please use the command Health to check your current health.&#x000A;&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-139"/>
+    </children>
+  </item>
+  <item nodeId="node-139">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with the basement key)&#x000A;You unlock the basement door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-140"/>
+    </children>
+  </item>
+  <item nodeId="node-140">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">(first opening the basement door)&#x000A;Finally, the dog stops wailing. It knows this is its chance, and leaps into your arms, licking your face. You can hardly remember what it's like being in the neighborhood without hearing its howls. You've got the dog. It's time to escape.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-141"/>
+    </children>
+  </item>
+  <item nodeId="node-141">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">Doorway&#x000A;Your neighbor Trent left his key under the doormat, practically an invitation inside. You have one mission: Freeing the neglected dog in the basement. It's constant wails have left you sleepless for weeks, and tonight is no different. There is a basement that is down from here and a kitchen to the east. Wherever you go, you know you will still hear that poor dog's wailing.&#x000A;&#x000A;Note: Please use the command Health to check your current health.&#x000A;&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-142"/>
+    </children>
+  </item>
+  <item nodeId="node-142">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Basement&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-143"/>
+    </children>
+  </item>
+  <item nodeId="node-143">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  Lily&#x000A;  a basement key&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-116">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">Doorway&#x000A;Your neighbor Trent left his key under the doormat, practically an invitation inside. You have one mission: Freeing the neglected dog in the basement. It's constant wails have left you sleepless for weeks, and tonight is no different. There is a basement that is down from here and a kitchen to the east. Wherever you go, you know you will still hear that poor dog's wailing.&#x000A;&#x000A;Note: Please use the command Health to check your current health.&#x000A;&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-117"/>
+      <child nodeId="node-124"/>
+    </children>
+  </item>
+  <item nodeId="node-117">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">You try to open the door to go down and save the dog, but it is locked. What kind of sick man would bother taking the extra effort of locking the basement door in his own home each night? You figure Trent must really enjoy the power and control he feels from abusing this poor dog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-121"/>
+      <child nodeId="node-118"/>
+    </children>
+  </item>
+  <item nodeId="node-121">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-122"/>
+    </children>
+  </item>
+  <item nodeId="node-122">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with the basement key)&#x000A;You unlock the basement door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-123"/>
+    </children>
+  </item>
+  <item nodeId="node-123">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">(first opening the basement door)&#x000A;&#x000A;Basement&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-118">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with the basement key)&#x000A;You unlock the basement door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-119"/>
+    </children>
+  </item>
+  <item nodeId="node-119">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">(first opening the basement door)&#x000A;&#x000A;Basement&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-120"/>
+    </children>
+  </item>
+  <item nodeId="node-120">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a basement key&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-124">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with the basement key)&#x000A;You unlock the basement door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-125"/>
+    </children>
+  </item>
+  <item nodeId="node-125">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">(first opening the basement door)&#x000A;&#x000A;Basement&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-126"/>
+    </children>
+  </item>
+  <item nodeId="node-126">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-3">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-4"/>
+    </children>
+  </item>
+  <item nodeId="node-4">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-5"/>
+    </children>
+  </item>
+  <item nodeId="node-5">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-6"/>
+    </children>
+  </item>
+  <item nodeId="node-6">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-7"/>
+    </children>
+  </item>
+  <item nodeId="node-7">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-8"/>
+    </children>
+  </item>
+  <item nodeId="node-8">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">You try to open the door to go down and save the dog, but it is locked. You wonder what kind of sick man would bother to take the extra effort of locking the basement door in his own home each night. He must really enjoy the power and control he feels from abusing this poor dog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Kitchen&#x000A;Your neighbor Trent keeps an empty kitchen. There's a small fridge, some drawers and cupboards with chipped paint. There's a small table with a lone wooden chair.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-52"/>
+      <child nodeId="node-44"/>
+      <child nodeId="node-171"/>
+      <child nodeId="node-20"/>
+      <child nodeId="node-19"/>
+      <child nodeId="node-16"/>
+      <child nodeId="node-46"/>
+      <child nodeId="node-17"/>
+    </children>
+  </item>
+  <item nodeId="node-52">
+    <command xml:space="preserve">eat food</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-53"/>
+    </children>
+  </item>
+  <item nodeId="node-53">
+    <command xml:space="preserve">open fridge</command>
+    <result xml:space="preserve">You peer into a depressing world. Before you lay a six-pack of beer and some takeout food. There are no vegetables or meat to be seen. Not even so much as ketchup can be found.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-54"/>
+    </children>
+  </item>
+  <item nodeId="node-54">
+    <command xml:space="preserve">eat food</command>
+    <result xml:space="preserve">You manage to somehow eat the hamburger. It's almost flavorless, part of the burger is chewy, and part of it is crunchy. You aren't sure if it's literally poisonous or if the sensory experience being so miserable is causing you to feel queasy&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-55"/>
+    </children>
+  </item>
+  <item nodeId="node-55">
+    <command xml:space="preserve">health</command>
+    <result xml:space="preserve">Your current health is 75.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-56"/>
+    </children>
+  </item>
+  <item nodeId="node-56">
+    <command xml:space="preserve">open drawer</command>
+    <result xml:space="preserve">The drawers creak as you open them, but they aren't any louder than the dog's moans. You wonder how Trent manages to sleep through all this noise, however you can still hear him snoring from upstairs. You see a single fork and knife, a clear sign of a bachelor.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-44">
+    <command xml:space="preserve">eat photo</command>
+    <result xml:space="preserve">The photo doesn't taste like anything, but you feel a sudden wave of warmth and energy. Could it be... love? Somehow, the memories within the photo boost your vitality.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-45"/>
+    </children>
+  </item>
+  <item nodeId="node-45">
+    <command xml:space="preserve">health</command>
+    <result xml:space="preserve">Your current health is 150.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-171">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-172"/>
+    </children>
+  </item>
+  <item nodeId="node-172">
+    <command xml:space="preserve">open cupboard</command>
+    <result xml:space="preserve">The cupboards reveal no more than a lone plate and a bowl inside. You don't see any dog food anywhere. You wonder how Trent feeds&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-173"/>
+    </children>
+  </item>
+  <item nodeId="node-173">
+    <command xml:space="preserve">take plate</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-174"/>
+    </children>
+  </item>
+  <item nodeId="node-174">
+    <command xml:space="preserve">equip plate</command>
+    <result xml:space="preserve">You equip the plate.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve">open drawer</command>
+    <result xml:space="preserve">The drawers creak as you open them, but they aren't any louder than the dog's moans. You wonder how Trent manages to sleep through all this noise, however you can still hear him snoring from upstairs. You see a single fork and knife, a clear sign of a bachelor's place. There's also a slip of paper.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-21"/>
+      <child nodeId="node-36"/>
+    </children>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-22"/>
+    </children>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Doorway&#x000A;Your neighbor Trent left his key under the doormat, practically an invitation inside. You have one mission: Freeing the neglected dog in the basement. It's constant wails have left you sleepless for weeks, and tonight is no different. There is a basement that is down from here and a kitchen to the east. Wherever you go, you know you will still hear that poor dog's wailing.&#x000A;&#x000A;Note: Please use the command Health to check your current health.&#x000A;&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-23"/>
+      <child nodeId="node-24"/>
+    </children>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">(first opening the basement door)&#x000A;&#x000A;Basement&#x000A;Finally, the dog stops wailing. It knows this is it's chance, and leaps into your arms, licking your face. You can hardly remember what it's like being in the neighborhood without hearing its howls.&#x000A;&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-57"/>
+    </children>
+  </item>
+  <item nodeId="node-57">
+    <command xml:space="preserve">use key</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-58"/>
+    </children>
+  </item>
+  <item nodeId="node-58">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with the basement key)&#x000A;That doesn't seem to be something you can unlock.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You open the basement door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-25"/>
+    </children>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">basement&#x000A;In here is a million dollars&#x000A;&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-36">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve">open fridge</command>
+    <result xml:space="preserve">You peer into a depressing world. Before you lay a six-pack of beer and some takeout food. There are no vegetables or meat to be seen. Not even so much as ketchup can be found.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-35"/>
+      <child nodeId="node-50"/>
+      <child nodeId="node-32"/>
+    </children>
+  </item>
+  <item nodeId="node-35">
+    <command xml:space="preserve">drink beer</command>
+    <result xml:space="preserve">You guzzle down each beer as fast as they can flow out of their can. This superhuman feat would have left you proud and elated if the dog's constant cries for help would stop for just a few minutes. You feel a newfound strength, and an increased confidence that you will free the poor dog from Trent's captivity.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-50">
+    <command xml:space="preserve">eat food</command>
+    <result xml:space="preserve">You manage to somehow eat the hamburger. It's almost flavorless, part of the burger is chewy, and part of it is crunchy. You aren't sure if it's literally poisonous or if the sensory experience being so miserable is causing you to feel queasy&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-51"/>
+    </children>
+  </item>
+  <item nodeId="node-51">
+    <command xml:space="preserve">health</command>
+    <result xml:space="preserve">Your current health is 125.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-32">
+    <command xml:space="preserve">take beer</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-33"/>
+    </children>
+  </item>
+  <item nodeId="node-33">
+    <command xml:space="preserve">drink beer</command>
+    <result xml:space="preserve">You guzzle down each beer as fast as they can flow out of their can. This superhuman feat would have left you happy and proud, if the dog's constant cries for help could stop for just a few minutes. You feel a newfound strength, and an increased confidence that you will free the poor dog from Trent's captivity.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-225"/>
+    </children>
+  </item>
+  <item nodeId="node-225">
+    <command xml:space="preserve">health</command>
+    <result xml:space="preserve">Your current health is 125.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-226"/>
+    </children>
+  </item>
+  <item nodeId="node-226">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Doorway&#x000A;Your neighbor Trent left his key under the doormat, practically an invitation inside. You have one mission: Freeing the neglected dog in the basement. It's constant wails have left you sleepless for weeks, and tonight is no different. There is a basement that is down from here and a kitchen to the east. Wherever you go, you know you will still hear that poor dog's wailing.&#x000A;&#x000A;Note: Please use the command Health to check your current health.&#x000A;&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-227"/>
+    </children>
+  </item>
+  <item nodeId="node-227">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">Bedroom&#x000A;You enter Trent's bedroom. There he is snoring, completely unaware of your presence and the dog's howls which carry into the room. There is a bedside table with one drawer, and a small closet.&#x000A;&#x000A;On the bed is Trent.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-228"/>
+    </children>
+  </item>
+  <item nodeId="node-228">
+    <command xml:space="preserve">open closet</command>
+    <result xml:space="preserve">You notice a small safe on the floor of the closet next to a baseball bat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-229"/>
+    </children>
+  </item>
+  <item nodeId="node-229">
+    <command xml:space="preserve">enter 0609</command>
+    <result xml:space="preserve">You punch in the code. After a tense pause, the safe clicks open. Inside, you see a small key: the basement key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-230"/>
+    </children>
+  </item>
+  <item nodeId="node-230">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">baseball bat: Taken.&#x000A;basement key: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-231"/>
+    </children>
+  </item>
+  <item nodeId="node-231">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">Doorway&#x000A;Your neighbor Trent left his key under the doormat, practically an invitation inside. You have one mission: Freeing the neglected dog in the basement. It's constant wails have left you sleepless for weeks, and tonight is no different. There is a basement that is down from here and a kitchen to the east. Wherever you go, you know you will still hear that poor dog's wailing.&#x000A;&#x000A;Note: Please use the command Health to check your current health.&#x000A;&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-232"/>
+    </children>
+  </item>
+  <item nodeId="node-232">
+    <command xml:space="preserve">unlock door with key</command>
+    <result xml:space="preserve">You unlock the basement door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-233"/>
+    </children>
+  </item>
+  <item nodeId="node-233">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">(first opening the basement door)&#x000A;Finally, the dog stops wailing. It knows this is its chance, and leaps into your arms, licking your face. You can hardly remember what it's like being in the neighborhood without hearing its howls. You've got the dog. It's time to escape.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-234"/>
+    </children>
+  </item>
+  <item nodeId="node-234">
+    <command xml:space="preserve">equip baseball bat</command>
+    <result xml:space="preserve">You equip the baseball bat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-235"/>
+    </children>
+  </item>
+  <item nodeId="node-235">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You open the door and to your shock, Trent is there. "I can't sleep without that damn dog barking!" he screams. In this moment, a thought appears in your head like a shockwave "Fight or Flight?". (type Fight or Flight to advance the story)&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-236"/>
+    </children>
+  </item>
+  <item nodeId="node-236">
+    <command xml:space="preserve">fight</command>
+    <result xml:space="preserve">Basement&#x000A;You can see a basement door here.&#x000A;&#x000A;With Lily in your arms and the baseball bat gripped tightly, you stand your ground. Trent lunges, but you're ready. One swift swing is all it takes. He's down.&#x000A;&#x000A;&#x000A;&#x000A;    *** You defeated Trent with the baseball bat and saved Lily! ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-237"/>
+    </children>
+  </item>
+  <item nodeId="node-237">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">GA 1&#x000A;An Interactive Fiction by Marshall&#x000A;Release 1 / Serial number 250416 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Doorway&#x000A;Your neighbor Trent left his key under the doormat, practically an invitation inside. You have one mission: Freeing the neglected dog in the basement. It's constant wails have left you sleepless for weeks, and tonight is no different. There is a basement that is down from here and a kitchen to the east. Wherever you go, you know you will still hear that poor dog's wailing.&#x000A;&#x000A;Note: Please use the command Health to check your current health.&#x000A;&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-238"/>
+    </children>
+  </item>
+  <item nodeId="node-238">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">Bedroom&#x000A;You enter Trent's bedroom. There he is snoring, completely unaware of your presence and the dog's howls which carry into the room. There is a bedside table with one drawer, and a small closet.&#x000A;&#x000A;On the bed is Trent.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-239"/>
+    </children>
+  </item>
+  <item nodeId="node-239">
+    <command xml:space="preserve">open closet</command>
+    <result xml:space="preserve">You notice a small safe on the floor of the closet next to a baseball bat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-240"/>
+    </children>
+  </item>
+  <item nodeId="node-240">
+    <command xml:space="preserve">enter 0609</command>
+    <result xml:space="preserve">You punch in the code. After a tense pause, the safe clicks open. Inside, you see a small key: the basement key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-241"/>
+    </children>
+  </item>
+  <item nodeId="node-241">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">baseball bat: Taken.&#x000A;basement key: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-242"/>
+    </children>
+  </item>
+  <item nodeId="node-242">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">Doorway&#x000A;Your neighbor Trent left his key under the doormat, practically an invitation inside. You have one mission: Freeing the neglected dog in the basement. It's constant wails have left you sleepless for weeks, and tonight is no different. There is a basement that is down from here and a kitchen to the east. Wherever you go, you know you will still hear that poor dog's wailing.&#x000A;&#x000A;Note: Please use the command Health to check your current health.&#x000A;&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-243"/>
+    </children>
+  </item>
+  <item nodeId="node-243">
+    <command xml:space="preserve">unlock door with key</command>
+    <result xml:space="preserve">You unlock the basement door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-244"/>
+    </children>
+  </item>
+  <item nodeId="node-244">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">(first opening the basement door)&#x000A;Finally, the dog stops wailing. It knows this is its chance, and leaps into your arms, licking your face. You can hardly remember what it's like being in the neighborhood without hearing its howls. You've got the dog. It's time to escape.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-245"/>
+    </children>
+  </item>
+  <item nodeId="node-245">
+    <command xml:space="preserve">equip baseball bat</command>
+    <result xml:space="preserve">You equip the baseball bat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-246"/>
+    </children>
+  </item>
+  <item nodeId="node-246">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You open the door and to your shock, Trent is there. "I can't sleep without that damn dog barking!" he screams. In this moment, a thought appears in your head like a shockwave "Fight or Flight?". (type Fight or Flight to advance the story)&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-247"/>
+    </children>
+  </item>
+  <item nodeId="node-247">
+    <command xml:space="preserve">fight</command>
+    <result xml:space="preserve">Basement&#x000A;You can see a basement door here.&#x000A;&#x000A;With Lily in your arms and the baseball bat gripped tightly, you stand your ground. Trent lunges, but you're ready. One swift swing is all it takes. He's down.&#x000A;&#x000A;&#x000A;&#x000A;    *** You defeated Trent with the baseball bat and saved Lily! ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-248"/>
+    </children>
+  </item>
+  <item nodeId="node-248">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Doorway&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-249"/>
+    </children>
+  </item>
+  <item nodeId="node-249">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Basement&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-250"/>
+    </children>
+  </item>
+  <item nodeId="node-250">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You open the door and to your shock, Trent is there. "I can't sleep without that damn dog barking!" he screams. In this moment, a thought appears in your head like a shockwave "Fight or Flight?". (type Fight or Flight to advance the story)&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-251"/>
+    </children>
+  </item>
+  <item nodeId="node-251">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Basement&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-252"/>
+    </children>
+  </item>
+  <item nodeId="node-252">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Basement&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-253"/>
+    </children>
+  </item>
+  <item nodeId="node-253">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You open the door and to your shock, Trent is there. "I can't sleep without that damn dog barking!" he screams. In this moment, a thought appears in your head like a shockwave "Fight or Flight?". (type Fight or Flight to advance the story)&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-254"/>
+    </children>
+  </item>
+  <item nodeId="node-254">
+    <command xml:space="preserve">fight</command>
+    <result xml:space="preserve">Basement&#x000A;You can see a basement door here.&#x000A;&#x000A;With Lily in your arms, there's not much you can do. A quick kick sends you tumbling down the steps.&#x000A;&#x000A;You lost 70 health. You should equip a weapon from your inventory before fighting Trent.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-255"/>
+    </children>
+  </item>
+  <item nodeId="node-255">
+    <command xml:space="preserve">health</command>
+    <result xml:space="preserve">Your current health is 30.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-256"/>
+    </children>
+  </item>
+  <item nodeId="node-256">
+    <command xml:space="preserve">equip baseball bat</command>
+    <result xml:space="preserve">You equip the baseball bat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-257"/>
+    </children>
+  </item>
+  <item nodeId="node-257">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You open the door and to your shock, Trent is there. "I can't sleep without that damn dog barking!" he screams. In this moment, a thought appears in your head like a shockwave "Fight or Flight?". (type Fight or Flight to advance the story)&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-258"/>
+    </children>
+  </item>
+  <item nodeId="node-258">
+    <command xml:space="preserve">fight</command>
+    <result xml:space="preserve">Basement&#x000A;You can see a basement door here.&#x000A;&#x000A;With Lily in your arms and the baseball bat gripped tightly, you stand your ground. Trent lunges, but you're ready. One swift swing is all it takes. He's down.&#x000A;&#x000A;&#x000A;&#x000A;    *** You defeated Trent with the baseball bat and saved Lily! ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-259"/>
+    </children>
+  </item>
+  <item nodeId="node-259">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Doorway&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-260"/>
+    </children>
+  </item>
+  <item nodeId="node-260">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Basement&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-261"/>
+    </children>
+  </item>
+  <item nodeId="node-261">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Basement&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-262"/>
+    </children>
+  </item>
+  <item nodeId="node-262">
+    <command xml:space="preserve">health</command>
+    <result xml:space="preserve">Your current health is 30.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-263"/>
+    </children>
+  </item>
+  <item nodeId="node-263">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You open the door and to your shock, Trent is there. "I can't sleep without that damn dog barking!" he screams. In this moment, a thought appears in your head like a shockwave "Fight or Flight?". (type Fight or Flight to advance the story)&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-264"/>
+    </children>
+  </item>
+  <item nodeId="node-264">
+    <command xml:space="preserve">fight</command>
+    <result xml:space="preserve">Basement&#x000A;You can see a basement door here.&#x000A;&#x000A;With Lily in your arms, there's not much you can do. A quick kick sends you tumbling down the steps.&#x000A;&#x000A;You lost 70 health. You should equip a weapon from your inventory before fighting Trent.&#x000A;&#x000A;&#x000A;&#x000A;    *** You've been knocked out. The police are on their way, and Trent will be changing his locks. You've missed your chance to save Lily. Game over. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">doorway&#x000A;You can see a basement door and a basement key here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-46">
+    <command xml:space="preserve">x drawer</command>
+    <result xml:space="preserve">The drawers are a mix of white paint chipping off, and a light brown wood once hidden underneath. There are chips of paint on the floor. You hope the dog hasnt been eating any.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-47"/>
+    </children>
+  </item>
+  <item nodeId="node-47">
+    <command xml:space="preserve">open drawer</command>
+    <result xml:space="preserve">The drawers creak as you open them, but they aren't any louder than the dog's moans. You wonder how Trent manages to sleep through all this noise, however you can still hear him snoring from upstairs.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-48"/>
+    </children>
+  </item>
+  <item nodeId="node-48">
+    <command xml:space="preserve">take fork</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-49"/>
+    </children>
+  </item>
+  <item nodeId="node-49">
+    <command xml:space="preserve">x fork</command>
+    <result xml:space="preserve">Surprisingly clean given the state of the rest of the house.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">x fridge</command>
+    <result xml:space="preserve">The fridge has no calendar or local events on it, just a photo of a middle-aged woman.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-18"/>
+      <child nodeId="node-37"/>
+      <child nodeId="node-39"/>
+    </children>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">open fridge</command>
+    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-37">
+    <command xml:space="preserve">take photo</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-38"/>
+    </children>
+  </item>
+  <item nodeId="node-38">
+    <command xml:space="preserve">x photo</command>
+    <result xml:space="preserve">You flip over the photo and see the name "Sarah" scrawled on the back.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-39">
+    <command xml:space="preserve">x photo</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-34">
+    <command xml:space="preserve">health</command>
+    <result xml:space="preserve">Your current health is 100.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-66">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">Bedroom&#x000A;You enter Trent's bedroom. There he is snoring, completely unaware of your presence and the dog's howls which carry into the room. There is a bedside table with one drawer, and a small closet.&#x000A;&#x000A;On the bed is Trent.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-67"/>
+      <child nodeId="node-96"/>
+      <child nodeId="node-134"/>
+      <child nodeId="node-84"/>
+      <child nodeId="node-166"/>
+      <child nodeId="node-82"/>
+    </children>
+  </item>
+  <item nodeId="node-67">
+    <command xml:space="preserve">enter 6090</command>
+    <result xml:space="preserve">You enter 6090 into the keypad. A red light blinks. Wrong code.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-68"/>
+    </children>
+  </item>
+  <item nodeId="node-68">
+    <command xml:space="preserve">open drawer</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-69"/>
+    </children>
+  </item>
+  <item nodeId="node-69">
+    <command xml:space="preserve">open bedside table</command>
+    <result xml:space="preserve">You open the bedside table, revealing a calendar.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-70"/>
+    </children>
+  </item>
+  <item nodeId="node-70">
+    <command xml:space="preserve">x calendar</command>
+    <result xml:space="preserve">It is opened to June and the 9th day is X'ed out with countless X's.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-71"/>
+    </children>
+  </item>
+  <item nodeId="node-71">
+    <command xml:space="preserve">tale calendar</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-72"/>
+    </children>
+  </item>
+  <item nodeId="node-72">
+    <command xml:space="preserve">take calendar</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-73"/>
+    </children>
+  </item>
+  <item nodeId="node-73">
+    <command xml:space="preserve">enter 0609</command>
+    <result xml:space="preserve">You punch in the code. After a tense pause, the safe clicks open. Inside, you see a small key: the basement key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-74"/>
+    </children>
+  </item>
+  <item nodeId="node-74">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-75"/>
+    </children>
+  </item>
+  <item nodeId="node-75">
+    <command xml:space="preserve">take basement key</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-76"/>
+    </children>
+  </item>
+  <item nodeId="node-76">
+    <command xml:space="preserve">x key</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-77"/>
+    </children>
+  </item>
+  <item nodeId="node-77">
+    <command xml:space="preserve">x safe</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-78"/>
+    </children>
+  </item>
+  <item nodeId="node-78">
+    <command xml:space="preserve">open closet</command>
+    <result xml:space="preserve">You open the closet, revealing nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-79"/>
+    </children>
+  </item>
+  <item nodeId="node-79">
+    <command xml:space="preserve">x safe</command>
+    <result xml:space="preserve">A small metal safe with a keypad. It looks like it could be opened with the right 4-digit code.&#x000A;&#x000A;In the safe is a basement key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-80"/>
+    </children>
+  </item>
+  <item nodeId="node-80">
+    <command xml:space="preserve">enter 0609</command>
+    <result xml:space="preserve">The safe is already open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-81"/>
+    </children>
+  </item>
+  <item nodeId="node-81">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-96">
+    <command xml:space="preserve">enter 9060</command>
+    <result xml:space="preserve">You enter 9060 into the keypad. A red light blinks. Wrong code.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-134">
+    <command xml:space="preserve">kiss Trent</command>
+    <result xml:space="preserve">*** As you lock lips, Trent's eyes bolt open. He is a massive man, and wrestles you to the ground. You don't remember what happens next, but you wake up in a nearby ditch, unable to move. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-135"/>
+    </children>
+  </item>
+  <item nodeId="node-135">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Bedroom&#x000A;[Previous turn undone.]&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-136"/>
+    </children>
+  </item>
+  <item nodeId="node-136">
+    <command xml:space="preserve">touch trent</command>
+    <result xml:space="preserve">*** As you slide your hand across Trent's chest, Trent's eyes bolt open. He is a massive man, and wrestles you to the ground. You don't remember what happens next, but you wake up in a nearby ditch, unable to move. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-84">
+    <command xml:space="preserve">open closet</command>
+    <result xml:space="preserve">You notice a small safe on the floor of the closet next to a baseball bat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-92"/>
+      <child nodeId="node-175"/>
+      <child nodeId="node-85"/>
+    </children>
+  </item>
+  <item nodeId="node-92">
+    <command xml:space="preserve">enter 0609</command>
+    <result xml:space="preserve">You punch in the code. After a tense pause, the safe clicks open. Inside, you see a small key: the basement key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-109"/>
+      <child nodeId="node-265"/>
+      <child nodeId="node-93"/>
+    </children>
+  </item>
+  <item nodeId="node-109">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">Doorway&#x000A;Your neighbor Trent left his key under the doormat, practically an invitation inside. You have one mission: Freeing the neglected dog in the basement. It's constant wails have left you sleepless for weeks, and tonight is no different. There is a basement that is down from here and a kitchen to the east. Wherever you go, you know you will still hear that poor dog's wailing.&#x000A;&#x000A;Note: Please use the command Health to check your current health.&#x000A;&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-110"/>
+    </children>
+  </item>
+  <item nodeId="node-110">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">(first opening the basement door)&#x000A;As you reach the bottom of the basement stairs, a small frail dog jumps into your arms. It knows this is it's chance to escape.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-112"/>
+      <child nodeId="node-111"/>
+    </children>
+  </item>
+  <item nodeId="node-112">
+    <command xml:space="preserve">x dog</command>
+    <result xml:space="preserve">Around the dog's neck is a collar with a tag, "Lily Return to Sara 609-xxx-xxxx"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-111">
+    <command xml:space="preserve">x lily</command>
+    <result xml:space="preserve">Around the dog's neck is a collar with a tag, " Lily /n Return to Sara 609-xxx-xxxx"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-265">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">baseball bat: Taken.&#x000A;basement key: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-266"/>
+    </children>
+  </item>
+  <item nodeId="node-266">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">Doorway&#x000A;Your neighbor Trent left his key under the doormat, practically an invitation inside. You have one mission: Freeing the neglected dog in the basement. It's constant wails have left you sleepless for weeks, and tonight is no different. There is a basement that is down from here and a kitchen to the east. Wherever you go, you know you will still hear that poor dog's wailing.&#x000A;&#x000A;Note: Please use the command Health to check your current health.&#x000A;&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-282"/>
+      <child nodeId="node-267"/>
+      <child nodeId="node-275"/>
+    </children>
+  </item>
+  <item nodeId="node-282">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Kitchen&#x000A;Your neighbor Trent keeps an empty kitchen. There's a small fridge, some drawers and cupboards with chipped paint. There's a small table with a lone wooden chair.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-283"/>
+    </children>
+  </item>
+  <item nodeId="node-283">
+    <command xml:space="preserve">open drawer</command>
+    <result xml:space="preserve">The drawers creak as you open them, but they aren't any louder than the dog's moans. You wonder how Trent manages to sleep through all this noise, however you can still hear him snoring from upstairs. You see a single fork and knife, a clear sign of a bachelor's place. There's also a slip of paper.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-284"/>
+    </children>
+  </item>
+  <item nodeId="node-284">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">fork: Taken.&#x000A;knife: Taken.&#x000A;paper: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-285"/>
+    </children>
+  </item>
+  <item nodeId="node-285">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Doorway&#x000A;Your neighbor Trent left his key under the doormat, practically an invitation inside. You have one mission: Freeing the neglected dog in the basement. It's constant wails have left you sleepless for weeks, and tonight is no different. There is a basement that is down from here and a kitchen to the east. Wherever you go, you know you will still hear that poor dog's wailing.&#x000A;&#x000A;Note: Please use the command Health to check your current health.&#x000A;&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-286"/>
+    </children>
+  </item>
+  <item nodeId="node-286">
+    <command xml:space="preserve">unlock door with key</command>
+    <result xml:space="preserve">You unlock the basement door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-287"/>
+    </children>
+  </item>
+  <item nodeId="node-287">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">(first opening the basement door)&#x000A;Finally, the dog stops wailing. It knows this is its chance, and leaps into your arms, licking your face. You can hardly remember what it's like being in the neighborhood without hearing its howls. You've got the dog. It's time to escape.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-288"/>
+    </children>
+  </item>
+  <item nodeId="node-288">
+    <command xml:space="preserve">equip paper</command>
+    <result xml:space="preserve">You equip the paper.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-289"/>
+    </children>
+  </item>
+  <item nodeId="node-289">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You open the door and to your shock, Trent is there. "I can't sleep without that damn dog barking!" he screams. In this moment, a thought appears in your head like a shockwave "Fight or Flight?". (type Fight or Flight to advance the story)&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-290"/>
+    </children>
+  </item>
+  <item nodeId="node-290">
+    <command xml:space="preserve">fight</command>
+    <result xml:space="preserve">Basement&#x000A;You can see a basement door here.&#x000A;&#x000A;You take a heavy blow, but your weapon gives you just enough of an edge to push back. You win the fight.&#x000A;&#x000A;&#x000A;&#x000A;    *** You defeated Trent and saved Lily! ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-267">
+    <command xml:space="preserve">unlock door with kety</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-268"/>
+    </children>
+  </item>
+  <item nodeId="node-268">
+    <command xml:space="preserve">unlock door with key</command>
+    <result xml:space="preserve">You unlock the basement door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-269"/>
+    </children>
+  </item>
+  <item nodeId="node-269">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">(first opening the basement door)&#x000A;Finally, the dog stops wailing. It knows this is its chance, and leaps into your arms, licking your face. You can hardly remember what it's like being in the neighborhood without hearing its howls. You've got the dog. It's time to escape.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-270"/>
+    </children>
+  </item>
+  <item nodeId="node-270">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You open the door and to your shock, Trent is there. "I can't sleep without that damn dog barking!" he screams. In this moment, a thought appears in your head like a shockwave "Fight or Flight?". (type Fight or Flight to advance the story)&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-271"/>
+    </children>
+  </item>
+  <item nodeId="node-271">
+    <command xml:space="preserve">fight</command>
+    <result xml:space="preserve">Basement&#x000A;You can see a basement door here.&#x000A;&#x000A;With Lily in your arms, there's not much you can do. A quick kick sends you tumbling down the steps.&#x000A;&#x000A;You lost 70 health. You should equip a weapon from your inventory before fighting Trent.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-272"/>
+    </children>
+  </item>
+  <item nodeId="node-272">
+    <command xml:space="preserve">equip bat</command>
+    <result xml:space="preserve">You equip the baseball bat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-273"/>
+    </children>
+  </item>
+  <item nodeId="node-273">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You open the door and to your shock, Trent is there. "I can't sleep without that damn dog barking!" he screams. In this moment, a thought appears in your head like a shockwave "Fight or Flight?". (type Fight or Flight to advance the story)&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-274"/>
+    </children>
+  </item>
+  <item nodeId="node-274">
+    <command xml:space="preserve">fight</command>
+    <result xml:space="preserve">Basement&#x000A;You can see a basement door here.&#x000A;&#x000A;With Lily in your arms and the baseball bat gripped tightly, you stand your ground. Trent lunges, but you're ready. One swift swing is all it takes. He's down.&#x000A;&#x000A;You lost 30 health, but the bat gave you the upper hand.&#x000A;&#x000A;&#x000A;&#x000A;    *** You've been knocked out. The police are on their way, and Trent will be changing his locks. You've missed your chance to save Lily. Game over. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-275">
+    <command xml:space="preserve">unlock door with key</command>
+    <result xml:space="preserve">You unlock the basement door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-276"/>
+    </children>
+  </item>
+  <item nodeId="node-276">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">(first opening the basement door)&#x000A;Finally, the dog stops wailing. It knows this is its chance, and leaps into your arms, licking your face. You can hardly remember what it's like being in the neighborhood without hearing its howls. You've got the dog. It's time to escape.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-277"/>
+    </children>
+  </item>
+  <item nodeId="node-277">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You open the door and to your shock, Trent is there. "I can't sleep without that damn dog barking!" he screams. In this moment, a thought appears in your head like a shockwave "Fight or Flight?". (type Fight or Flight to advance the story)&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-278"/>
+    </children>
+  </item>
+  <item nodeId="node-278">
+    <command xml:space="preserve">fight</command>
+    <result xml:space="preserve">Basement&#x000A;You can see a basement door here.&#x000A;&#x000A;With Lily in your arms, there's not much you can do. A quick kick sends you tumbling down the steps.&#x000A;&#x000A;You lost 70 health. You should equip a weapon from your inventory before fighting Trent.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-279"/>
+    </children>
+  </item>
+  <item nodeId="node-279">
+    <command xml:space="preserve">equip baseball bat</command>
+    <result xml:space="preserve">You equip the baseball bat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-280"/>
+    </children>
+  </item>
+  <item nodeId="node-280">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You open the door and to your shock, Trent is there. "I can't sleep without that damn dog barking!" he screams. In this moment, a thought appears in your head like a shockwave "Fight or Flight?". (type Fight or Flight to advance the story)&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-281"/>
+    </children>
+  </item>
+  <item nodeId="node-281">
+    <command xml:space="preserve">fight</command>
+    <result xml:space="preserve">Basement&#x000A;You can see a basement door here.&#x000A;&#x000A;You lost 30 health, but the bat gave you the upper hand.&#x000A;&#x000A;&#x000A;&#x000A;    *** You've been knocked out. The police are on their way, and Trent will be changing his locks. You've missed your chance to save Lily. Game over. ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-93">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-94"/>
+    </children>
+  </item>
+  <item nodeId="node-94">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">Doorway&#x000A;Your neighbor Trent left his key under the doormat, practically an invitation inside. You have one mission: Freeing the neglected dog in the basement. It's constant wails have left you sleepless for weeks, and tonight is no different. There is a basement that is down from here and a kitchen to the east. Wherever you go, you know you will still hear that poor dog's wailing.&#x000A;&#x000A;Note: Please use the command Health to check your current health.&#x000A;&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-95"/>
+      <child nodeId="node-144"/>
+      <child nodeId="node-152"/>
+    </children>
+  </item>
+  <item nodeId="node-95">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">(first opening the basement door)&#x000A;&#x000A;&#x000A;    *** You step into the basement, free the dog, and win! ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-144">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-145"/>
+    </children>
+  </item>
+  <item nodeId="node-145">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">You try to open the door to go down and save the dog, but it is locked. What kind of sick man would bother taking the extra effort of locking the basement door in his own home each night? You figure Trent must really enjoy the power and control he feels from abusing this poor dog.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-146"/>
+    </children>
+  </item>
+  <item nodeId="node-146">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">Bedroom&#x000A;You enter Trent's bedroom. There he is snoring, completely unaware of your presence and the dog's howls which carry into the room. There is a bedside table with one drawer, and a small closet.&#x000A;&#x000A;On the bed is Trent.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-147"/>
+    </children>
+  </item>
+  <item nodeId="node-147">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">Doorway&#x000A;Your neighbor Trent left his key under the doormat, practically an invitation inside. You have one mission: Freeing the neglected dog in the basement. It's constant wails have left you sleepless for weeks, and tonight is no different. There is a basement that is down from here and a kitchen to the east. Wherever you go, you know you will still hear that poor dog's wailing.&#x000A;&#x000A;Note: Please use the command Health to check your current health.&#x000A;&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-148"/>
+    </children>
+  </item>
+  <item nodeId="node-148">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with the basement key)&#x000A;You unlock the basement door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-149"/>
+    </children>
+  </item>
+  <item nodeId="node-149">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">(first opening the basement door)&#x000A;Finally, the dog stops wailing. It knows this is its chance, and leaps into your arms, licking your face. You can hardly remember what it's like being in the neighborhood without hearing its howls. You've got the dog. It's time to escape.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-150"/>
+    </children>
+  </item>
+  <item nodeId="node-150">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You open the door and to your shock, Trent is there. "I can't sleep without that damn dog barking!" he screams. In this moment, a thought appears in your head like a shockwave "Fight or Flight?". (type Fight or Flight to advance the story)&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-151"/>
+    </children>
+  </item>
+  <item nodeId="node-151">
+    <command xml:space="preserve">health</command>
+    <result xml:space="preserve">Your current health is 100.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-152">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with the basement key)&#x000A;You unlock the basement door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-153"/>
+    </children>
+  </item>
+  <item nodeId="node-153">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">(first opening the basement door)&#x000A;Finally, the dog stops wailing. It knows this is its chance, and leaps into your arms, licking your face. You can hardly remember what it's like being in the neighborhood without hearing its howls. You've got the dog. It's time to escape.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-205"/>
+      <child nodeId="node-197"/>
+      <child nodeId="node-154"/>
+    </children>
+  </item>
+  <item nodeId="node-205">
+    <command xml:space="preserve">equip key</command>
+    <result xml:space="preserve">You equip the basement key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-206"/>
+    </children>
+  </item>
+  <item nodeId="node-206">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You open the door and to your shock, Trent is there. "I can't sleep without that damn dog barking!" he screams. In this moment, a thought appears in your head like a shockwave "Fight or Flight?". (type Fight or Flight to advance the story)&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-207"/>
+    </children>
+  </item>
+  <item nodeId="node-207">
+    <command xml:space="preserve">fight</command>
+    <result xml:space="preserve">Basement&#x000A;You can see a basement door here.&#x000A;&#x000A;With Lily in your arms, and the weapon equipped, you face Trent with determination. You take a heavy blow but your weapon helps you fight back. You win this fight!&#x000A;&#x000A;&#x000A;&#x000A;    *** You defeated Trent and saved Lily. Congratulations! ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-208"/>
+    </children>
+  </item>
+  <item nodeId="node-208">
+    <command xml:space="preserve">restart</command>
+    <result xml:space="preserve">GA 1&#x000A;An Interactive Fiction by Marshall&#x000A;Release 1 / Serial number 250416 / Inform 7 v10.1.2 / D&#x000A;&#x000A;Doorway&#x000A;Your neighbor Trent left his key under the doormat, practically an invitation inside. You have one mission: Freeing the neglected dog in the basement. It's constant wails have left you sleepless for weeks, and tonight is no different. There is a basement that is down from here and a kitchen to the east. Wherever you go, you know you will still hear that poor dog's wailing.&#x000A;&#x000A;Note: Please use the command Health to check your current health.&#x000A;&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-209"/>
+    </children>
+  </item>
+  <item nodeId="node-209">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Kitchen&#x000A;Your neighbor Trent keeps an empty kitchen. There's a small fridge, some drawers and cupboards with chipped paint. There's a small table with a lone wooden chair.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-210"/>
+    </children>
+  </item>
+  <item nodeId="node-210">
+    <command xml:space="preserve">open cupboard</command>
+    <result xml:space="preserve">The cupboards reveal no more than a lone plate and a bowl inside. You don't see any dog food anywhere. You wonder how Trent feeds&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-211"/>
+    </children>
+  </item>
+  <item nodeId="node-211">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">plate: Taken.&#x000A;bowl: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-212"/>
+    </children>
+  </item>
+  <item nodeId="node-212">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">Doorway&#x000A;Your neighbor Trent left his key under the doormat, practically an invitation inside. You have one mission: Freeing the neglected dog in the basement. It's constant wails have left you sleepless for weeks, and tonight is no different. There is a basement that is down from here and a kitchen to the east. Wherever you go, you know you will still hear that poor dog's wailing.&#x000A;&#x000A;Note: Please use the command Health to check your current health.&#x000A;&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-213"/>
+    </children>
+  </item>
+  <item nodeId="node-213">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">Bedroom&#x000A;You enter Trent's bedroom. There he is snoring, completely unaware of your presence and the dog's howls which carry into the room. There is a bedside table with one drawer, and a small closet.&#x000A;&#x000A;On the bed is Trent.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-214"/>
+    </children>
+  </item>
+  <item nodeId="node-214">
+    <command xml:space="preserve">enter closet</command>
+    <result xml:space="preserve">That's not something you can enter.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-215"/>
+    </children>
+  </item>
+  <item nodeId="node-215">
+    <command xml:space="preserve">open closet</command>
+    <result xml:space="preserve">You notice a small safe on the floor of the closet next to a baseball bat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-216"/>
+    </children>
+  </item>
+  <item nodeId="node-216">
+    <command xml:space="preserve">enter 0609</command>
+    <result xml:space="preserve">You punch in the code. After a tense pause, the safe clicks open. Inside, you see a small key: the basement key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-217"/>
+    </children>
+  </item>
+  <item nodeId="node-217">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">baseball bat: Taken.&#x000A;basement key: Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-218"/>
+    </children>
+  </item>
+  <item nodeId="node-218">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">Doorway&#x000A;Your neighbor Trent left his key under the doormat, practically an invitation inside. You have one mission: Freeing the neglected dog in the basement. It's constant wails have left you sleepless for weeks, and tonight is no different. There is a basement that is down from here and a kitchen to the east. Wherever you go, you know you will still hear that poor dog's wailing.&#x000A;&#x000A;Note: Please use the command Health to check your current health.&#x000A;&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-219"/>
+    </children>
+  </item>
+  <item nodeId="node-219">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">What do you want to unlock the basement door with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-220"/>
+    </children>
+  </item>
+  <item nodeId="node-220">
+    <command xml:space="preserve">unlock door with key</command>
+    <result xml:space="preserve">You unlock the basement door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-221"/>
+    </children>
+  </item>
+  <item nodeId="node-221">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">(first opening the basement door)&#x000A;Finally, the dog stops wailing. It knows this is its chance, and leaps into your arms, licking your face. You can hardly remember what it's like being in the neighborhood without hearing its howls. You've got the dog. It's time to escape.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-222"/>
+    </children>
+  </item>
+  <item nodeId="node-222">
+    <command xml:space="preserve">equip baseball bat</command>
+    <result xml:space="preserve">You equip the baseball bat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-223"/>
+    </children>
+  </item>
+  <item nodeId="node-223">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You open the door and to your shock, Trent is there. "I can't sleep without that damn dog barking!" he screams. In this moment, a thought appears in your head like a shockwave "Fight or Flight?". (type Fight or Flight to advance the story)&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-224"/>
+    </children>
+  </item>
+  <item nodeId="node-224">
+    <command xml:space="preserve">fight</command>
+    <result xml:space="preserve">Basement&#x000A;You can see a basement door here.&#x000A;&#x000A;With Lily in your arms, and the weapon equipped, you face Trent with determination. You take a heavy blow but your weapon helps you fight back. You win this fight!&#x000A;&#x000A;&#x000A;&#x000A;    *** You defeated Trent and saved Lily. Congratulations! ***&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-197">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  Lily&#x000A;  a basement key&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-198"/>
+    </children>
+  </item>
+  <item nodeId="node-198">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You open the door and to your shock, Trent is there. "I can't sleep without that damn dog barking!" he screams. In this moment, a thought appears in your head like a shockwave "Fight or Flight?". (type Fight or Flight to advance the story)&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-199"/>
+    </children>
+  </item>
+  <item nodeId="node-199">
+    <command xml:space="preserve">flight</command>
+    <result xml:space="preserve">Basement&#x000A;You can see a basement door here.&#x000A;&#x000A;You turn and fly down the stairs with Lily in your arms, narrowly dodging a kick from Trent, who tried to send you tumbling down the stairs. You can't beat Trent and save Lily with her in your arms. You should drop Lily and EQUIP a weapon to fight Trent with.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-200"/>
+    </children>
+  </item>
+  <item nodeId="node-200">
+    <command xml:space="preserve">equip basement key</command>
+    <result xml:space="preserve">You equip the basement key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-201"/>
+    </children>
+  </item>
+  <item nodeId="node-201">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You open the door and to your shock, Trent is there. "I can't sleep without that damn dog barking!" he screams. In this moment, a thought appears in your head like a shockwave "Fight or Flight?". (type Fight or Flight to advance the story)&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-154">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You open the door and to your shock, Trent is there. "I can't sleep without that damn dog barking!" he screams. In this moment, a thought appears in your head like a shockwave "Fight or Flight?". (type Fight or Flight to advance the story)&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-156"/>
+      <child nodeId="node-155"/>
+      <child nodeId="node-202"/>
+      <child nodeId="node-193"/>
+    </children>
+  </item>
+  <item nodeId="node-156">
+    <command xml:space="preserve">Fight</command>
+    <result xml:space="preserve">Basement&#x000A;You can see a basement door here.&#x000A;&#x000A;You swing wildly, but your opponent is quicker. A sharp blow lands and you reel, stumbling through a door and down the steps...&#x000A;&#x000A;You lost 70 health.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-157"/>
+    </children>
+  </item>
+  <item nodeId="node-157">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You open the door and to your shock, Trent is there. "I can't sleep without that damn dog barking!" he screams. In this moment, a thought appears in your head like a shockwave "Fight or Flight?". (type Fight or Flight to advance the story)&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-158"/>
+    </children>
+  </item>
+  <item nodeId="node-158">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">Finally, the dog stops wailing. It knows this is its chance, and leaps into your arms, licking your face. You can hardly remember what it's like being in the neighborhood without hearing its howls. You've got the dog. It's time to escape.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-159"/>
+    </children>
+  </item>
+  <item nodeId="node-159">
+    <command xml:space="preserve">drop lily</command>
+    <result xml:space="preserve">Dropped.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-160"/>
+    </children>
+  </item>
+  <item nodeId="node-160">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-161"/>
+    </children>
+  </item>
+  <item nodeId="node-161">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">Bedroom&#x000A;You enter Trent's bedroom. There he is snoring, completely unaware of your presence and the dog's howls which carry into the room. There is a bedside table with one drawer, and a small closet.&#x000A;&#x000A;On the bed is Trent.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-162"/>
+    </children>
+  </item>
+  <item nodeId="node-162">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">Doorway&#x000A;Your neighbor Trent left his key under the doormat, practically an invitation inside. You have one mission: Freeing the neglected dog in the basement. It's constant wails have left you sleepless for weeks, and tonight is no different. There is a basement that is down from here and a kitchen to the east. Wherever you go, you know you will still hear that poor dog's wailing.&#x000A;&#x000A;Note: Please use the command Health to check your current health.&#x000A;&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-155">
+    <command xml:space="preserve">fight</command>
+    <result xml:space="preserve">Basement&#x000A;You can see a basement door here.&#x000A;&#x000A;You swing wildly, but your opponent is quicker. A sharp blow lands and you reel, stumbling through a door and down the steps...&#x000A;&#x000A;You lost 70 health.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-202">
+    <command xml:space="preserve">flight</command>
+    <result xml:space="preserve">Basement&#x000A;You can see a basement door here.&#x000A;&#x000A;You turn and fly down the stairs with Lily in your arms, narrowly dodging a kick from Trent, who tried to send you tumbling down the stairs. You can't beat Trent and save Lily with her in your arms. You should drop Lily and EQUIP a weapon to fight Trent with.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-203"/>
+    </children>
+  </item>
+  <item nodeId="node-203">
+    <command xml:space="preserve">equip key</command>
+    <result xml:space="preserve">You equip the basement key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-204"/>
+    </children>
+  </item>
+  <item nodeId="node-204">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">You open the door and to your shock, Trent is there. "I can't sleep without that damn dog barking!" he screams. In this moment, a thought appears in your head like a shockwave "Fight or Flight?". (type Fight or Flight to advance the story)&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-193">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">Bedroom&#x000A;You enter Trent's bedroom. There he is snoring, completely unaware of your presence and the dog's howls which carry into the room. There is a bedside table with one drawer, and a small closet.&#x000A;&#x000A;On the bed is Trent.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-194"/>
+    </children>
+  </item>
+  <item nodeId="node-194">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">Doorway&#x000A;Your neighbor Trent left his key under the doormat, practically an invitation inside. You have one mission: Freeing the neglected dog in the basement. It's constant wails have left you sleepless for weeks, and tonight is no different. There is a basement that is down from here and a kitchen to the east. Wherever you go, you know you will still hear that poor dog's wailing.&#x000A;&#x000A;Note: Please use the command Health to check your current health.&#x000A;&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-195"/>
+    </children>
+  </item>
+  <item nodeId="node-195">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-196"/>
+    </children>
+  </item>
+  <item nodeId="node-196">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a basement key&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-175">
+    <command xml:space="preserve">take baseball bat</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-176"/>
+    </children>
+  </item>
+  <item nodeId="node-176">
+    <command xml:space="preserve">enter 0609</command>
+    <result xml:space="preserve">You punch in the code. After a tense pause, the safe clicks open. Inside, you see a small key: the basement key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-177"/>
+    </children>
+  </item>
+  <item nodeId="node-177">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-178"/>
+    </children>
+  </item>
+  <item nodeId="node-178">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">Doorway&#x000A;Your neighbor Trent left his key under the doormat, practically an invitation inside. You have one mission: Freeing the neglected dog in the basement. It's constant wails have left you sleepless for weeks, and tonight is no different. There is a basement that is down from here and a kitchen to the east. Wherever you go, you know you will still hear that poor dog's wailing.&#x000A;&#x000A;Note: Please use the command Health to check your current health.&#x000A;&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-179"/>
+    </children>
+  </item>
+  <item nodeId="node-179">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">What do you want to unlock the basement door with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-180"/>
+    </children>
+  </item>
+  <item nodeId="node-180">
+    <command xml:space="preserve">key</command>
+    <result xml:space="preserve">You unlock the basement door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-181"/>
+    </children>
+  </item>
+  <item nodeId="node-181">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">(first opening the basement door)&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-182"/>
+    </children>
+  </item>
+  <item nodeId="node-182">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-183"/>
+    </children>
+  </item>
+  <item nodeId="node-183">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-184"/>
+    </children>
+  </item>
+  <item nodeId="node-184">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-185"/>
+    </children>
+  </item>
+  <item nodeId="node-185">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-186"/>
+    </children>
+  </item>
+  <item nodeId="node-186">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a basement key&#x000A;  a baseball bat&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-187"/>
+    </children>
+  </item>
+  <item nodeId="node-187">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">Bedroom&#x000A;You enter Trent's bedroom. There he is snoring, completely unaware of your presence and the dog's howls which carry into the room. There is a bedside table with one drawer, and a small closet.&#x000A;&#x000A;On the bed is Trent.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-188"/>
+    </children>
+  </item>
+  <item nodeId="node-188">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">Doorway&#x000A;Your neighbor Trent left his key under the doormat, practically an invitation inside. You have one mission: Freeing the neglected dog in the basement. It's constant wails have left you sleepless for weeks, and tonight is no different. There is a basement that is down from here and a kitchen to the east. Wherever you go, you know you will still hear that poor dog's wailing.&#x000A;&#x000A;Note: Please use the command Health to check your current health.&#x000A;&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-189"/>
+    </children>
+  </item>
+  <item nodeId="node-189">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-190"/>
+    </children>
+  </item>
+  <item nodeId="node-190">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">What do you want to unlock the basement door with?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-191"/>
+    </children>
+  </item>
+  <item nodeId="node-191">
+    <command xml:space="preserve">unlock door with key</command>
+    <result xml:space="preserve">That's unlocked at the moment.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-192"/>
+    </children>
+  </item>
+  <item nodeId="node-192">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-85">
+    <command xml:space="preserve">x safe</command>
+    <result xml:space="preserve">A small metal safe with a keypad. It looks like it could be opened with the right 4-digit code.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-86"/>
+    </children>
+  </item>
+  <item nodeId="node-86">
+    <command xml:space="preserve">enter 0609</command>
+    <result xml:space="preserve">You punch in the code. After a tense pause, the safe clicks open. Inside, you see a small key: the basement key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-87"/>
+    </children>
+  </item>
+  <item nodeId="node-87">
+    <command xml:space="preserve">take basement key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-88"/>
+    </children>
+  </item>
+  <item nodeId="node-88">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">Doorway&#x000A;Your neighbor Trent left his key under the doormat, practically an invitation inside. You have one mission: Freeing the neglected dog in the basement. It's constant wails have left you sleepless for weeks, and tonight is no different. There is a basement that is down from here and a kitchen to the east. Wherever you go, you know you will still hear that poor dog's wailing.&#x000A;&#x000A;Note: Please use the command Health to check your current health.&#x000A;&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-89"/>
+    </children>
+  </item>
+  <item nodeId="node-89">
+    <command xml:space="preserve">open basement door</command>
+    <result xml:space="preserve">You open the basement door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-90"/>
+    </children>
+  </item>
+  <item nodeId="node-90">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">Basement&#x000A;Finally, the dog stops wailing. It knows this is it's chance, and leaps into your arms, licking your face. You can hardly remember what it's like being in the neighborhood without hearing its howls.&#x000A;&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-91"/>
+    </children>
+  </item>
+  <item nodeId="node-91">
+    <command xml:space="preserve">x dog</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-166">
+    <command xml:space="preserve">take baseball bat</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-167"/>
+    </children>
+  </item>
+  <item nodeId="node-167">
+    <command xml:space="preserve">open closet</command>
+    <result xml:space="preserve">You notice a small safe on the floor of the closet next to a baseball bat.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-168"/>
+    </children>
+  </item>
+  <item nodeId="node-168">
+    <command xml:space="preserve">take baseball bat</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-169"/>
+    </children>
+  </item>
+  <item nodeId="node-169">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">Doorway&#x000A;Your neighbor Trent left his key under the doormat, practically an invitation inside. You have one mission: Freeing the neglected dog in the basement. It's constant wails have left you sleepless for weeks, and tonight is no different. There is a basement that is down from here and a kitchen to the east. Wherever you go, you know you will still hear that poor dog's wailing.&#x000A;&#x000A;Note: Please use the command Health to check your current health.&#x000A;&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-170"/>
+    </children>
+  </item>
+  <item nodeId="node-170">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">(with the baseball bat)&#x000A;That doesn't seem to fit the lock.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-82">
+    <command xml:space="preserve">x safe</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-83"/>
+    </children>
+  </item>
+  <item nodeId="node-83">
+    <command xml:space="preserve">open closet</command>
+    <result xml:space="preserve">You open the closet, revealing nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-59">
+    <command xml:space="preserve">up</command>
+    <result xml:space="preserve">Bedroom&#x000A;You enter Trent's bedroom. There he is snoring, completely unaware of your presence and the dog's howls which carry into the room. There is a bedside table with one drawer, and a small closet.&#x000A;&#x000A;On the bed is Trent.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-60"/>
+    </children>
+  </item>
+  <item nodeId="node-60">
+    <command xml:space="preserve">open closet</command>
+    <result xml:space="preserve">You notice a small safe on the floor of the closet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-104"/>
+      <child nodeId="node-97"/>
+      <child nodeId="node-61"/>
+    </children>
+  </item>
+  <item nodeId="node-104">
+    <command xml:space="preserve">enter 0609</command>
+    <result xml:space="preserve">You punch in the code. After a tense pause, the safe clicks open. Inside, you see a small key: the basement key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-105"/>
+    </children>
+  </item>
+  <item nodeId="node-105">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-106"/>
+    </children>
+  </item>
+  <item nodeId="node-106">
+    <command xml:space="preserve">down </command>
+    <result xml:space="preserve">Doorway&#x000A;Your neighbor Trent left his key under the doormat, practically an invitation inside. You have one mission: Freeing the neglected dog in the basement. It's constant wails have left you sleepless for weeks, and tonight is no different. There is a basement that is down from here and a kitchen to the east. Wherever you go, you know you will still hear that poor dog's wailing.&#x000A;&#x000A;Note: Please use the command Health to check your current health.&#x000A;&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-107"/>
+    </children>
+  </item>
+  <item nodeId="node-107">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">(first opening the basement door)&#x000A;As you reach the bottom of the basement stairs, a small frail dog jumps into your arms. It knows this is it's chance to escape.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-108"/>
+    </children>
+  </item>
+  <item nodeId="node-108">
+    <command xml:space="preserve">x lily</command>
+    <result xml:space="preserve">Around the dog's neck is a collar with a tag, " Lily Return to Sara 609-xxx-xxxx"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-97">
+    <command xml:space="preserve">enter 6090</command>
+    <result xml:space="preserve">You enter 6090 into the keypad. A red light blinks. Wrong code.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-98"/>
+    </children>
+  </item>
+  <item nodeId="node-98">
+    <command xml:space="preserve">enter 0609</command>
+    <result xml:space="preserve">You punch in the code. After a tense pause, the safe clicks open. Inside, you see a small key: the basement key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-99"/>
+    </children>
+  </item>
+  <item nodeId="node-99">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-100"/>
+    </children>
+  </item>
+  <item nodeId="node-100">
+    <command xml:space="preserve">down </command>
+    <result xml:space="preserve">Doorway&#x000A;Your neighbor Trent left his key under the doormat, practically an invitation inside. You have one mission: Freeing the neglected dog in the basement. It's constant wails have left you sleepless for weeks, and tonight is no different. There is a basement that is down from here and a kitchen to the east. Wherever you go, you know you will still hear that poor dog's wailing.&#x000A;&#x000A;Note: Please use the command Health to check your current health.&#x000A;&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-101"/>
+    </children>
+  </item>
+  <item nodeId="node-101">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">(first opening the basement door)&#x000A;As you reach the bottom of the basement stairs, a small frail dog jumps into your arms. It knows this is it's chance to escape.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-102"/>
+    </children>
+  </item>
+  <item nodeId="node-102">
+    <command xml:space="preserve">x dog</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-103"/>
+    </children>
+  </item>
+  <item nodeId="node-103">
+    <command xml:space="preserve">x lily</command>
+    <result xml:space="preserve">Around the dog's neck is a collar with a tag, "Lily return to Sara 609-xxx-xxxx"&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-61">
+    <command xml:space="preserve">open safe</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-62"/>
+    </children>
+  </item>
+  <item nodeId="node-62">
+    <command xml:space="preserve">0609</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-63"/>
+    </children>
+  </item>
+  <item nodeId="node-63">
+    <command xml:space="preserve">enter 0609</command>
+    <result xml:space="preserve">You punch in the code. After a tense pause, the safe clicks open. Inside, you see a small key: the basement key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-64"/>
+    </children>
+  </item>
+  <item nodeId="node-64">
+    <command xml:space="preserve">enter bed</command>
+    <result xml:space="preserve">You get onto the bed.&#x000A;&#x000A;On the bed you can see Trent.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-65"/>
+    </children>
+  </item>
+  <item nodeId="node-65">
+    <command xml:space="preserve">kiss trent</command>
+    <result xml:space="preserve">Trent might not like that.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-27">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-28"/>
+    </children>
+  </item>
+  <item nodeId="node-28">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">Kitchen&#x000A;Your neighbor Trent keeps an empty kitchen. There's nothing on his fridge, and the paint has chipped on his drawer and cupboard. There's a small table with a lone wooden chair.&#x000A;&#x000A;You can see a fridge (closed), a drawer (closed) and a cupboard (closed) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-29"/>
+    </children>
+  </item>
+  <item nodeId="node-29">
+    <command xml:space="preserve">open fridge</command>
+    <result xml:space="preserve">You open the fridge, revealing a beer and an old takeout food.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-30"/>
+    </children>
+  </item>
+  <item nodeId="node-30">
+    <command xml:space="preserve">take beer</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-31"/>
+    </children>
+  </item>
+  <item nodeId="node-31">
+    <command xml:space="preserve">drink beer</command>
+    <result xml:space="preserve">There's nothing suitable to drink here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-9">
+    <command xml:space="preserve">x all</command>
+    <result xml:space="preserve">You can't use multiple objects with that verb.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-10"/>
+    </children>
+  </item>
+  <item nodeId="node-10">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">What do you want to examine?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-11"/>
+    </children>
+  </item>
+  <item nodeId="node-11">
+    <command xml:space="preserve">x key</command>
+    <result xml:space="preserve">You see nothing special about the basement key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-12"/>
+    </children>
+  </item>
+  <item nodeId="node-12">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-13"/>
+    </children>
+  </item>
+  <item nodeId="node-13">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">(first opening the basement door)&#x000A;&#x000A;basement&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-14"/>
+    </children>
+  </item>
+  <item nodeId="node-14">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">doorway&#x000A;You can see a basement door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-163">
+    <command xml:space="preserve">y</command>
+    <result xml:space="preserve">That was a rhetorical question.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-164"/>
+    </children>
+  </item>
+  <item nodeId="node-164">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">Bedroom&#x000A;You enter Trent's bedroom. There he is snoring, completely unaware of your presence and the dog's howls which carry into the room. There is a bedside table with one drawer, and a small closet.&#x000A;&#x000A;On the bed is Trent.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-165"/>
+    </children>
+  </item>
+  <item nodeId="node-165">
+    <command xml:space="preserve">open closet</command>
+    <result xml:space="preserve">You notice a small safe on the floor of the closet.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>
